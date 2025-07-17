@@ -25,8 +25,8 @@ pip install -r requirements.txt
 (Optional) Use a virtual environment:
 
 ```bash
-python3 -m venv venv
-source venv/Scripts/activate 
+python -m venv venv
+venv\Scripts\activate 
 pip install -r requirements.txt
 ```
 

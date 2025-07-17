@@ -24,7 +24,7 @@ length = input("\nEnter the length (short/medium/long): ")
 length_map = {"short": 50, "medium": 150, "long": 300}
 max_length = length_map.get(length.lower(), 150)
 
-summary = summarization_chain.invoke({"text": text_to_summerize, "lenght": max_length})
+summary = summarization_chain.invoke({"text": text_to_summerize, "length": max_length})
 
 print("\n ** Generate Summary **")
 print(summary)

@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 model = pipeline(task="text-generation", 
                 model="mistralai/Mistral-7B-Instruct-v0.1", 
                 device="cpu",
-                max_lenght=256,
+                max_length=256,
                 truncation=True)
 
 
